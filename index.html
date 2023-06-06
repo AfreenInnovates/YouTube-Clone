@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="hamburger-menu.svg" />
+        <img class="youtube-logo" src="youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="apps-container">
+          <img class="youtube-apps-icon" src="youtube-apps.svg" />
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <div class="notification-icon-container">
+            <img class="notifications-icon" src="notifications.svg" />
+            <div class="notifications-count">9+</div>
+            <div class="tooltip">Notifications</div>
+          </div>
+        </div>
+        <img class="current-user-picture" src="my-channel.jpeg" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link" title="Home">
+        <img src="home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link" title="Subscriptions">
+        <img src="subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link" title="Shorts">
+        <img src="ss.png" />
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link" title="Library">
+        <img src="library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/lCCN_lkl3Xw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFfyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsK_KSDiHuE8AAAvFn6HmL2wKtmA"
+            />
+            <div class="video-time">1:17:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/ytc/AGIKgqPynrDx3sjEZRxMZjAkJLFLujArPbNfXQrh2CdAZw=s48-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Create A Responsive Grocery Store Website Design Using HTML -
+                CSS - JavaScript || Step By Step
+              </p>
+              <p class="video-author">Mr. Web Designer</p>
+              <p class="video-stats">512K views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/bS0aeylCnmY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFfyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFQoUDAP&rs=AOn4CLCaAGZgtkoHxteI_V7QzOy6uQVMvg"
+            />
+            <div class="video-time">1:02:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel-pictures/channel-2.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">The Night We Met - Lord Huron (1 Hour)</p>
+              <p class="video-author">Cerddoriaeth Ffycin</p>
+              <p class="video-stats">3.8M views &#183; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/ZmDBbnmKpqQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFfyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu7TWd3ym3nTO2IDbA1UB_Ajt-ug"
+            />
+            <div class="video-time">4:07</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel-pictures/channel-3.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Olivia Rodrigo - drivers license (Official Video)
+              </p>
+              <p class="video-author">Oliva Rodrigo</p>
+              <p class="video-stats">449M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/p7GBHtMXvbg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFfyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBB4lsB7wb9cv0JBqshymPJwcr7_A"
+            />
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel-pictures/channel-4.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Responsive Hamburger Menu With HTML CSS & JS - Hindi
+              </p>
+              <p class="video-author">Hindi Tech Tutorials</p>
+              <p class="video-stats">35K views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/xN8DPjcybpM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFfyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHFsJC4UnEHyFsbBtqjtRv7IGQEg"
+            />
+            <div class="video-time">40:02</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel-pictures/channel-5.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">CSS "Box Model" in 40 minutes</p>
+              <p class="video-author">CodeHelp - by Babbar</p>
+              <p class="video-stats">17K views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp" />
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel-pictures/channel-6.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">MrBeast</p>
+              <p class="video-stats">141M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
